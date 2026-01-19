@@ -97,17 +97,23 @@ const HeroSection = () => {
             <p className="text-primary-foreground/90 text-sm leading-relaxed mb-4">
               Al realizar tu pago, el sistema te redirigirá automáticamente. Para asegurar que recibas todo el acompañamiento que prometí, te pido que:
             </p>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="flex gap-3 items-start p-3 bg-primary/20 rounded-lg">
+            <div className="space-y-4">
+              <div className="flex gap-4 items-start p-4 bg-primary/20 rounded-lg border border-accent/10">
                 <div className="w-6 h-6 rounded-full bg-accent flex-shrink-0 flex items-center justify-center text-xs text-primary font-bold">1</div>
-                <p className="text-primary-foreground/90 text-[13px] leading-snug">
-                  <strong className="text-accent block mb-1">Escríbenos al WhatsApp:</strong> Envíanos tu comprobante para asegurar tu sesión 1:1.
+                <p className="text-primary-foreground/90 text-sm leading-snug">
+                  <strong className="text-accent block mb-1">Escríbenos al WhatsApp:</strong> Envíanos tu comprobante para asegurar tu sesión de mentoría 1:1 de inmediato.
                 </p>
               </div>
-              <div className="flex gap-3 items-start p-3 bg-primary/20 rounded-lg">
+              <div className="flex gap-4 items-start p-4 bg-primary/20 rounded-lg border border-accent/10">
                 <div className="w-6 h-6 rounded-full bg-accent flex-shrink-0 flex items-center justify-center text-xs text-primary font-bold">2</div>
-                <p className="text-primary-foreground/90 text-[13px] leading-snug">
-                  <strong className="text-accent block mb-1">Súmate al grupo:</strong> Recibirás el link por chat para no perderte el taller.
+                <p className="text-primary-foreground/90 text-sm leading-snug">
+                  <strong className="text-accent block mb-1">Súmate al grupo de estudio:</strong> Donde compartiremos materiales exclusivos antes del taller.
+                </p>
+              </div>
+              <div className="flex gap-4 items-start p-4 bg-primary/20 rounded-lg border border-accent/10">
+                <div className="w-6 h-6 rounded-full bg-accent flex-shrink-0 flex items-center justify-center text-xs text-primary font-bold">3</div>
+                <p className="text-primary-foreground/90 text-sm leading-snug">
+                  <strong className="text-accent block mb-1">Únete al Grupo VIP de WhatsApp:</strong> Allí recibirás el link de Zoom para las sesiones en vivo.
                 </p>
               </div>
             </div>

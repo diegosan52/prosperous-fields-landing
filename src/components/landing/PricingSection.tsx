@@ -68,7 +68,13 @@ const PricingSection = () => {
                 <li className="flex gap-3 items-start">
                   <div className="w-5 h-5 rounded-full bg-accent flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] text-primary font-bold">2</div>
                   <p className="text-primary-foreground/90 text-xs leading-snug">
-                    <strong className="text-accent block text-sm mb-0.5">Te sumes al grupo de estudio:</strong> Es el lugar donde "afilaremos el hacha" juntos. Allí recibirás el enlace del grupo (que te entregaré por chat) para que no te pierdas ni un minuto del taller.
+                    <strong className="text-accent block text-sm mb-0.5">Te sumes al grupo de estudio:</strong> Es el lugar donde "afilaremos el hacha" juntos.
+                  </p>
+                </li>
+                <li className="flex gap-3 items-start">
+                  <div className="w-5 h-5 rounded-full bg-accent flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] text-primary font-bold">3</div>
+                  <p className="text-primary-foreground/90 text-xs leading-snug">
+                    <strong className="text-accent block text-sm mb-0.5">Únete al Grupo de WhatsApp:</strong> Allí recibirás el enlace de Zoom y las instrucciones finales para que no te pierdas ni un minuto del taller.
                   </p>
                 </li>
               </ul>
