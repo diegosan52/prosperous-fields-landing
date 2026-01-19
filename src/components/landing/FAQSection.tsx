@@ -8,7 +8,7 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "¿Necesito saber de finanzas avanzadas?",
+      question: "¿Necesito saber de matemáticas avanzadas o tener estudios específicos para que este taller me funcione?",
       answer: "No. Wilson enseña con palabras sencillas y herramientas prácticas diseñadas para el día a día en el campo."
     },
     {
@@ -27,11 +27,11 @@ const FAQSection = () => {
         <h2 className="text-3xl font-bold text-center mb-10 text-primary font-display">
           Preguntas Frecuentes
         </h2>
-        
+
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, index) => (
-            <AccordionItem 
-              key={index} 
+            <AccordionItem
+              key={index}
               value={`item-${index}`}
               className="bg-card rounded-xl px-6 border-none shadow-card"
             >
