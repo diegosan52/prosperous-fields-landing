@@ -1,6 +1,6 @@
 import { Instagram, Facebook, Youtube } from "lucide-react";
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=3147710062&text=Hola%20Wilson%20quiero%20inscribirme";
+const PURCHASE_LINK = "https://pay.hotmart.com/L103449630Q";
 
 // TikTok icon (not available in lucide-react)
 const TikTokIcon = () => (
@@ -45,7 +45,7 @@ const Footer = () => {
         </h2>
 
         <a
-          href={WHATSAPP_LINK}
+          href={PURCHASE_LINK}
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleCtaClick}

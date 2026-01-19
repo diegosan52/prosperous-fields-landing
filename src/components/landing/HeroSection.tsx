@@ -1,6 +1,6 @@
-import wilsonHero from "@/assets/wilson-hero.jpg";
+import wilson1 from "@/assets/wilson-1.png";
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=3147710062&text=Hola%20Wilson%20quiero%20inscribirme";
+const PURCHASE_LINK = "https://pay.hotmart.com/L103449630Q";
 
 const HeroSection = () => {
   const handleCtaClick = () => {
@@ -68,7 +68,7 @@ const HeroSection = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-accent/20 rounded-2xl transform rotate-3"></div>
               <img
-                src={wilsonHero}
+                src={wilson1}
                 alt="Wilson Alzate - Mentor de finanzas agropecuarias"
                 className="relative rounded-2xl shadow-lg object-cover w-full aspect-[3/4]"
                 loading="eager"
@@ -80,7 +80,7 @@ const HeroSection = () => {
         {/* CTA */}
         <div className="text-center">
           <a
-            href={WHATSAPP_LINK}
+            href={PURCHASE_LINK}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleCtaClick}

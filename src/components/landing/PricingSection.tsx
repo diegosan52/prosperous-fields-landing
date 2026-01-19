@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=3147710062&text=Hola%20Wilson%20quiero%20inscribirme";
+const PURCHASE_LINK = "https://pay.hotmart.com/L103449630Q";
 
 const PricingSection = () => {
   const handleCtaClick = () => {
@@ -33,15 +33,15 @@ const PricingSection = () => {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-primary-foreground font-display">
               Inversión Especial para Gente del Campo
             </h2>
-            
+
             <div className="mb-8">
               <span className="text-primary-foreground/50 line-through text-2xl">$37 USD</span>
               <div className="text-5xl sm:text-6xl font-black text-accent">$17 USD</div>
               <p className="text-sm mt-2 text-primary-foreground/70">Un único pago por acceso total.</p>
             </div>
-            
-            <a 
-              href={WHATSAPP_LINK}
+
+            <a
+              href={PURCHASE_LINK}
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleCtaClick}
@@ -49,7 +49,7 @@ const PricingSection = () => {
             >
               ASEGURAR MI CUPO AHORA
             </a>
-            
+
             <p className="text-center text-xs text-primary-foreground/50 mt-4 italic">
               Pago seguro a través de Hotmart
             </p>
@@ -60,14 +60,13 @@ const PricingSection = () => {
             <h3 className="text-xl font-bold mb-6 text-primary-foreground font-display">
               ¿Qué incluye tu inscripción?
             </h3>
-            
+
             <ul className="space-y-4">
               {benefits.map((benefit, index) => (
-                <li 
-                  key={index} 
-                  className={`flex items-center gap-3 ${
-                    benefit.highlight ? 'text-accent font-bold' : 'text-primary-foreground'
-                  }`}
+                <li
+                  key={index}
+                  className={`flex items-center gap-3 ${benefit.highlight ? 'text-accent font-bold' : 'text-primary-foreground'
+                    }`}
                 >
                   <span className="bg-accent p-1 rounded-full flex-shrink-0">
                     <Check className="w-4 h-4 text-accent-foreground" />
@@ -76,7 +75,7 @@ const PricingSection = () => {
                 </li>
               ))}
             </ul>
-            
+
             <p className="text-xs text-primary-foreground/50 mt-6">
               * La asesoría 1:1 está sujeta a disponibilidad. Regístrate hoy para garantizar tu espacio.
             </p>
