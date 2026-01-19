@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=3117710062&text=Hola%20Wilson%20tengo%20algunas%20preguntas";
+const WHATSAPP_LINK = "https://api.whatsapp.com/send?phone=3147710062&text=Hola%20Wilson%20tengo%20una%20pregunta";
 
 const FloatingWhatsApp = () => {
   const handleClick = () => {
@@ -26,7 +26,7 @@ const FloatingWhatsApp = () => {
       aria-label="Contactar por WhatsApp"
     >
       <MessageCircle className="w-7 h-7" />
-      
+
       {/* Tooltip */}
       <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-foreground text-background text-sm px-3 py-2 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
         ¿Tienes preguntas?
