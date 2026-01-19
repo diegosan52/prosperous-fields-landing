@@ -101,7 +101,7 @@ const Footer = () => {
           <p className="mt-4 text-primary-foreground/40">
             Desarrollado por{' '}
             <a
-              href="https://dmentedigital.com"
+              href="https://diegosan52.github.io/landing-dmente-digital/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary-foreground/60 transition-colors underline"
