@@ -45,12 +45,36 @@ const PricingSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleCtaClick}
-              className="btn-cta text-center text-lg"
+              className="btn-cta text-center text-lg mb-6"
             >
-              ASEGURAR MI CUPO AHORA
+              ¡INSCRIBIRME AHORA!
             </a>
 
-            <p className="text-center text-xs text-primary-foreground/50 mt-4 italic">
+            {/* Post-purchase Info Box */}
+            <div className="bg-accent/10 border border-accent/20 rounded-xl p-5 text-left mb-4">
+              <h4 className="text-accent font-bold text-sm mb-2 uppercase tracking-wide">
+                Tu camino hacia la abundancia empieza aquí...
+              </h4>
+              <p className="text-primary-foreground/80 text-xs leading-relaxed mb-3 font-medium">
+                Al realizar tu pago, el sistema te redirigirá automáticamente. Para asegurar que recibas todo el acompañamiento que prometí, te pido que:
+              </p>
+              <ul className="space-y-3">
+                <li className="flex gap-3 items-start">
+                  <div className="w-5 h-5 rounded-full bg-accent flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] text-primary font-bold">1</div>
+                  <p className="text-primary-foreground/90 text-xs leading-snug">
+                    <strong className="text-accent block text-sm mb-0.5">Nos escribas al WhatsApp:</strong> Envíanos una foto de tu pago. Esto nos permite conocerte de inmediato y asegurar tu espacio en la agenda de asesorías personalizadas.
+                  </p>
+                </li>
+                <li className="flex gap-3 items-start">
+                  <div className="w-5 h-5 rounded-full bg-accent flex-shrink-0 mt-0.5 flex items-center justify-center text-[10px] text-primary font-bold">2</div>
+                  <p className="text-primary-foreground/90 text-xs leading-snug">
+                    <strong className="text-accent block text-sm mb-0.5">Te sumes al grupo de estudio:</strong> Es el lugar donde "afilaremos el hacha" juntos. Allí recibirás el enlace del grupo (que te entregaré por chat) para que no te pierdas ni un minuto del taller.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <p className="text-center text-xs text-primary-foreground/50 italic">
               Pago seguro a través de Hotmart
             </p>
           </div>

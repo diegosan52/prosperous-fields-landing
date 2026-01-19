@@ -78,17 +78,42 @@ const HeroSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="text-center">
+        <div className="text-center max-w-2xl mx-auto">
           <a
             href={PURCHASE_LINK}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleCtaClick}
-            className="btn-cta text-xl px-10 py-5"
+            className="btn-cta text-xl px-10 py-5 mb-8"
           >
-            ¡QUIERO INSCRIBIRME POR SOLO $17 USD!
+            ¡INSCRIBIRME AHORA POR SOLO $17 USD!
           </a>
-          <p className="text-primary-foreground/60 mt-4 text-sm">
+
+          {/* Post-purchase Info Box */}
+          <div className="bg-accent/10 border border-accent/20 rounded-xl p-6 text-left shadow-lg backdrop-blur-sm">
+            <h4 className="text-accent font-bold text-base mb-3 uppercase tracking-wide">
+              Tu camino hacia la abundancia empieza aquí...
+            </h4>
+            <p className="text-primary-foreground/90 text-sm leading-relaxed mb-4">
+              Al realizar tu pago, el sistema te redirigirá automáticamente. Para asegurar que recibas todo el acompañamiento que prometí, te pido que:
+            </p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              <div className="flex gap-3 items-start p-3 bg-primary/20 rounded-lg">
+                <div className="w-6 h-6 rounded-full bg-accent flex-shrink-0 flex items-center justify-center text-xs text-primary font-bold">1</div>
+                <p className="text-primary-foreground/90 text-[13px] leading-snug">
+                  <strong className="text-accent block mb-1">Escríbenos al WhatsApp:</strong> Envíanos tu comprobante para asegurar tu sesión 1:1.
+                </p>
+              </div>
+              <div className="flex gap-3 items-start p-3 bg-primary/20 rounded-lg">
+                <div className="w-6 h-6 rounded-full bg-accent flex-shrink-0 flex items-center justify-center text-xs text-primary font-bold">2</div>
+                <p className="text-primary-foreground/90 text-[13px] leading-snug">
+                  <strong className="text-accent block mb-1">Súmate al grupo:</strong> Recibirás el link por chat para no perderte el taller.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-primary-foreground/60 mt-6 text-sm">
             Cupos limitados para la sesión de mentoría 1:1
           </p>
         </div>

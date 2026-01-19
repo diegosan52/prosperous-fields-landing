@@ -51,7 +51,7 @@ const Footer = () => {
           onClick={handleCtaClick}
           className="btn-cta text-xl sm:text-2xl px-8 sm:px-12 py-5 sm:py-6 font-black mb-10"
         >
-          SÍ, QUIERO MI PLAN 2026 POR $17 USD
+          ¡INSCRIBIRME AHORA!
         </a>
 
         {/* Social Links */}
